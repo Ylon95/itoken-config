@@ -22,6 +22,10 @@ spring:
 server:
   port: 8501
 
+mybatis:
+  type-aliases-package: com.oyl.itoken.service.admin.domain
+  mapper-localtions: classpath:mapper/*.xml
+
 eureka:
   client:
     serviceUrl:
