@@ -17,3 +17,5 @@ feign:
 mybatis:
   type-aliases-package: com.oyl.itoken.common.domain
   mapper-locations: classpath:mapper/*.xml
+  configuration:
+    cache-enabled: true
