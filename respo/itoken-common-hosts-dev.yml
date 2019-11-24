@@ -1,2 +1,2 @@
 hosts:
-  sso: http://localhost:8503
+  posts: http://localhost:8503
