@@ -10,17 +10,9 @@ spring:
           search-paths: respo
           username: Ylon95
           password: 12345678
-  boot:
-    admin:
-      client:
-        url: http://localhost:8084
-  zipkin:
-    base-url: http://localhost:9411
+      uri: http://localhost:8888
+      name: itoken-client-eureka,itoken-client-zipkin,itoken-client-admin
+      profile: dev
 
 server:
   port: 8888
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
