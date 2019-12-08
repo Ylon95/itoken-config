@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: itoken-service-upload
+
+server:
+  port: 8505
